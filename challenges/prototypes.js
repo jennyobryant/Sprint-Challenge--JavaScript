@@ -33,14 +33,14 @@ CuboidMakerProto.prototype.surfaceArea = function surfaceArea (){
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
-const cuboid = new CuboidMakerProto ({
+const cuboidproto = new CuboidMakerProto ({
   length: 4,
   width: 5,
   height: 5
 }); 
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log(cuboid.volume()); // 100
-console.log(cuboid.surfaceArea()); // 130
+console.log(cuboidproto.volume()); // 100
+console.log(cuboidproto.surfaceArea()); // 130
 
 
